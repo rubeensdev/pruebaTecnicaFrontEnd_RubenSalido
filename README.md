@@ -1,7 +1,6 @@
 # pruebaTecnicaFrontEnd_RubenSalido
 Aplicación web con el framework vue.js en la que se muestra un catálogo de productos permite filtrarlos y cambiar el estilo
 
-----------------Pasos para poder ejecutar la prueba técnica----------------
 Pasos para poder ejecutar la prueba técnica
 1. Tener instalado Node.js y Vue.js
 
@@ -26,7 +25,6 @@ Pasos para poder ejecutar la prueba técnica
 --------------------------------------------------------------------------
 			
 
---------------Decisiones técnicas que he tomado------------------------
 Decisiones técnicas que he tomado
 
 
@@ -35,16 +33,15 @@ Decisiones técnicas que he tomado
 
 --------------------------------------------------------------------------
 
---------------Explicación de la estructura del proyecto-------------------
 Explicación de la estructura del proyecto
 
 He usado una estructura de un template, un script y un style.
 En el template he hecho todo lo visible (Cajas, titulos....)
 @@ -45,7 +45,7 @@ Y en el style esta toda la parte visual/artistica del proyecto
+
 --------------------------------------------------------------------------
 
 
--------------------Mejoras posibles---------------------------------------
 Mejoras posibles
 
 Es mi primer proyecto en Vue.js y veo bastante cosas que mejorar, como la estructura del proyecto, separar script y css, la funcionalidad creo que podria ser infinitamente mas limpia y mejor.
