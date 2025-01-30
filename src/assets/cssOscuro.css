@@ -1,0 +1,33 @@
+body.oscuro {
+    background-color: black; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+  }
+  
+  body.oscuro .productoTabla {
+    background-color: rgb(40, 40, 40); /* Fondo oscuro para la tabla */
+  }
+  
+  body.oscuro .productoTabla th,
+  body.oscuro .productoTabla td {
+    color: white; /* Texto blanco en la tabla */
+  }
+  
+  body.oscuro .ordenarPorNombreBoton,
+  body.oscuro .ordenarPorCategoriaBoton,
+  body.oscuro .ordenarPorPrecioBoton {
+    background-color: #333; /* Fondo oscuro para los botones */
+    color: white; /* Texto blanco en los botones */
+  }
+  
+  body.oscuro .ordenarPorNombreBoton:hover,
+  body.oscuro .ordenarPorCategoriaBoton:hover,
+  body.oscuro .ordenarPorPrecioBoton:hover {
+    background-color: #3498db; /* Azul de fondo al pasar el ratón */
+    color: white; /* Cambiar el color del texto a blanco */
+    transform: scale(1.1); /* Aumenta el tamaño de los botones */
+  }
+  
+  body.oscuro .productoImagen {
+    border: 1px solid #444; /* Borde oscuro para las imágenes */
+  }
+  

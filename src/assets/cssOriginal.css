@@ -1,0 +1,86 @@
+body {
+    background-color: white; /* Fondo blanco por defecto (modo claro) */
+    color: black; /* Texto negro por defecto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo general de la página */
+  .catalogoTitulo {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: black; /* Título en negro */
+  }
+  
+  /* Estilo para los botones */
+  .ordenarPorNombreBoton,
+  .ordenarPorCategoriaBoton,
+  .ordenarPorPrecioBoton {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255); /* Fondo claro */
+    color: black; /* Texto negro */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .ordenarPorNombreBoton:hover,
+  .ordenarPorCategoriaBoton:hover,
+  .ordenarPorPrecioBoton:hover {
+    background-color: #3498db; /* Azul de fondo al pasar el ratón */
+    color: white; /* Cambiar el color del texto a blanco */
+    transform: scale(1.1); /* Aumenta el tamaño de los botones */
+  }
+  
+  /* Estilo para la tabla */
+  .productoTabla {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255); /* Fondo claro para la tabla */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .productoTabla th,
+  .productoTabla td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc; /* Línea divisoria suave */
+  }
+  
+  .productoTabla th {
+    background-color: #f7f7f7; /* Fondo claro en los encabezados */
+    color: black; /* Texto negro */
+    font-weight: bold;
+  }
+  
+  .productoTabla tr:hover {
+    background-color: #3498db; /* Fondo azul claro al pasar el ratón */
+    color: white; /* Texto blanco */
+    transition: transform 1s ease, opacity 2s ease;
+    transform: scale(1.05); /* Efecto de aumento */
+    opacity: 1;
+  }
+  
+  /* Estilo para las imágenes de los productos */
+  .productoImagen {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 1s ease, opacity 2s ease;
+  }
+  
+  .productoImagen:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen */
+    opacity: 0.8;
+    border: 3px solid #3498db; /* Borde azul al pasar el ratón sobre la imagen */
+  }
+  
