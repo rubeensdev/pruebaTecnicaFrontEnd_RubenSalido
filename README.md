@@ -6,6 +6,7 @@ Pasos para poder ejecutar la prueba técnica
 1. Tener instalado Node.js y Vue.js
 
 	Link de instalacion de Node.js: https://nodejs.org/es
+	Link de la instalacion de Vue.js: https://vuejs.org/guide/quick-start.html
 		Una vez descargado e instalado podemos verificar con node -v en una terminal 
 ----------
 
