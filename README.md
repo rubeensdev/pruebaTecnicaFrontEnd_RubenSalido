@@ -20,16 +20,16 @@ Pasos para poder ejecutar la prueba técnica
 
 4. Copiar y pegar en nuestro navegador la URL que nos da.
   A mi siempre me daba estas:
-                 App running at:
-@@ -23,7 +23,7 @@ Aplicación web con el framework vue.js en la que se muestra un catálogo de pro
+   App running at: - Local: http://localhost:8080/ - Network: http://192.168.1.130:8080/
 --------------------------------------------------------------------------
 			
 
 Decisiones técnicas que he tomado
 
 
-1. La separacion en metodos de cada funcionalidad.
-@@ -35,7 +35,7 @@ Aplicación web con el framework vue.js en la que se muestra un catálogo de pro
+1. La separacion en metodos de cada funcionalidad. Para que su manejo sea mas limpio y mas entendible.
+2. El uso de banderas para los elementos del DOM. Para poder comparar a la hora de mostrarlos.
+3. El uso de axios para la conexion con la API Una libreria que sirve para conectar con una API y de esa forma poder coger los datos.
 
 --------------------------------------------------------------------------
 
@@ -37,7 +37,7 @@ Explicación de la estructura del proyecto
 
 He usado una estructura de un template, un script y un style.
 En el template he hecho todo lo visible (Cajas, titulos....)
-@@ -45,7 +45,7 @@ Y en el style esta toda la parte visual/artistica del proyecto
+Y en el style esta toda la parte visual/artistica del proyecto
 
 --------------------------------------------------------------------------
 
