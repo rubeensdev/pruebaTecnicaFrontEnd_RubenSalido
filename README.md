@@ -21,7 +21,7 @@ Aplicación web con el framework vue.js en la que se muestra un catálogo de pro
                   - Network: http://192.168.1.130:8080/
    
 --------------------------------------------------------------------------
-
+			
 
 --------------Decisiones técnicas que he tomado------------------------
 
@@ -41,6 +41,7 @@ He usado una estructura de un template, un script y un style.
 En el template he hecho todo lo visible (Cajas, titulos....)
 En el script he hecho toda la funcionalidad.
 Y en el style esta toda la parte visual/artistica del proyecto
+
 --------------------------------------------------------------------------
 
 
