@@ -48,3 +48,7 @@ Es mi primer proyecto en Vue.js y veo bastante cosas que mejorar, como la estruc
 En cuanto a funcionalidades me gustaria a aprender como hacer persistencia en vue.js y como hacer los loading states.
 Si hubiera tenido mas tiempo y formacion ente framework creo que lo podria haber hecho mucho mejor.
 --------------------------------------------------------------------------
+
+
+Esta prueba fue realizada para la empresa Iberpixel en Enero de 2025
+
